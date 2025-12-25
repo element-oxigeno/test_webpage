@@ -3,39 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sum Two Numbers</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        input { margin: 5px; }
+        button { margin: 5px; }
+        #result { margin-top: 10px; font-weight: bold; }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to Test Webpage</h1>
-        </header>
-        
-        <main>
-            <section class="intro">
-                <h2>About This Page</h2>
-                <p>This is a simple webpage created for testing purposes.</p>
-            </section>
-            
-            <section class="features">
-                <h2>Features</h2>
-                <ul>
-                    <li>Clean and simple design</li>
-                    <li>Responsive layout</li>
-                    <li>Easy to customize</li>
-                </ul>
-            </section>
-            
-            <section class="info">
-                <h2>Information</h2>
-                <p>You can use this webpage as a starting point for your web development projects.</p>
-            </section>
-        </main>
-        
-        <footer>
-            <p>&copy; 2025 Test Webpage. All rights reserved.</p>
-        </footer>
-    </div>
+    <h2>Sum Two Numbers</h2>
+    <input type="number" id="num1" placeholder="First number">
+    <input type="number" id="num2" placeholder="Second number">
+    <button onclick="showSum()">Sum</button>
+    <div id="result"></div>
+    <script src="main.js"></script>
 </body>
 </html>
